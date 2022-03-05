@@ -8,6 +8,7 @@ public class DecimalToRomanoTest {
 
     @Test
     public void testDecToRomano(){
+        //Se consideraron tests que pasan en distintos casos de unidades, decenas y centenas, no se consideran test de fallo
         assertEquals("I",NumeroRomano.decToRomano(1));
         assertEquals("II",NumeroRomano.decToRomano(2));
         assertEquals("IV",NumeroRomano.decToRomano(4));
